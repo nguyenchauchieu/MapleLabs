@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D8E231FB20868FAB1833242 /* Pods_MapleLabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CFC15F7A5C174518D4B959 /* Pods_MapleLabs.framework */; };
+		F7023BDD24503DF0000C858F /* ConfigurationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7023BDC24503DF0000C858F /* ConfigurationUtil.swift */; };
+		F7023BE024503E57000C858F /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7023BDF24503E57000C858F /* DictionaryExtension.swift */; };
+		F7023BE624503EF9000C858F /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7023BE524503EF9000C858F /* Configuration.plist */; };
+		F7023BE8245041B0000C858F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7023BE7245041B0000C858F /* Constants.swift */; };
+		F7023BEA24504214000C858F /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7023BE924504214000C858F /* PhotoRepository.swift */; };
+		F7023BEE2450427D000C858F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7023BED2450427D000C858F /* Photo.swift */; };
+		F71D6D252450390200583A5D /* APIClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D6D242450390200583A5D /* APIClients.swift */; };
+		F74A59F12450755B00DE29E8 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74A59F02450755B00DE29E8 /* UIImageViewExtension.swift */; };
+		F74A59F32450CF0700DE29E8 /* ImageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74A59F22450CF0700DE29E8 /* ImageDetailsViewController.swift */; };
+		F74A59F72450DD1500DE29E8 /* ImageDetailsFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74A59F62450DD1500DE29E8 /* ImageDetailsFooter.swift */; };
+		F74A59FB2450DD7600DE29E8 /* ImageDetailsFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74A59FA2450DD7600DE29E8 /* ImageDetailsFooter.xib */; };
+		F74BF43B244FEE790047C9E6 /* UnsplashImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BF43A244FEE790047C9E6 /* UnsplashImageView.swift */; };
+		F74BF43F244FF1020047C9E6 /* HomeImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BF43E244FF1020047C9E6 /* HomeImageCollectionViewCell.swift */; };
+		F74BF441244FFC1D0047C9E6 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BF440244FFC1D0047C9E6 /* PinterestLayout.swift */; };
 		F77ABE96244F6EA000CCFCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ABE95244F6EA000CCFCEC /* AppDelegate.swift */; };
 		F77ABE98244F6EA000CCFCEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ABE97244F6EA000CCFCEC /* SceneDelegate.swift */; };
-		F77ABE9A244F6EA000CCFCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ABE99244F6EA000CCFCEC /* ViewController.swift */; };
+		F77ABE9A244F6EA000CCFCEC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77ABE99244F6EA000CCFCEC /* HomeViewController.swift */; };
 		F77ABE9D244F6EA000CCFCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77ABE9B244F6EA000CCFCEC /* Main.storyboard */; };
 		F77ABE9F244F6EA400CCFCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77ABE9E244F6EA400CCFCEC /* Assets.xcassets */; };
 		F77ABEA2244F6EA400CCFCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77ABEA0244F6EA400CCFCEC /* LaunchScreen.storyboard */; };
+		F7D4A094245044DB00FF6BC3 /* AuthorizationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4A093245044DB00FF6BC3 /* AuthorizationAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F77ABE92244F6EA000CCFCEC /* MapleLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapleLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C449101F6522F4AE041CF2 /* Pods-MapleLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapleLabs.release.xcconfig"; path = "Target Support Files/Pods-MapleLabs/Pods-MapleLabs.release.xcconfig"; sourceTree = "<group>"; };
+		1ED794D19DC4AAA6D56A20B8 /* Pods-MapleLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapleLabs.debug.xcconfig"; path = "Target Support Files/Pods-MapleLabs/Pods-MapleLabs.debug.xcconfig"; sourceTree = "<group>"; };
+		E8CFC15F7A5C174518D4B959 /* Pods_MapleLabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapleLabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7023BDC24503DF0000C858F /* ConfigurationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationUtil.swift; sourceTree = "<group>"; };
+		F7023BDF24503E57000C858F /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		F7023BE524503EF9000C858F /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		F7023BE7245041B0000C858F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7023BE924504214000C858F /* PhotoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
+		F7023BED2450427D000C858F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F71D6D242450390200583A5D /* APIClients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClients.swift; sourceTree = "<group>"; };
+		F74A59F02450755B00DE29E8 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		F74A59F22450CF0700DE29E8 /* ImageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewController.swift; sourceTree = "<group>"; };
+		F74A59F62450DD1500DE29E8 /* ImageDetailsFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsFooter.swift; sourceTree = "<group>"; };
+		F74A59FA2450DD7600DE29E8 /* ImageDetailsFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDetailsFooter.xib; sourceTree = "<group>"; };
+		F74BF43A244FEE790047C9E6 /* UnsplashImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImageView.swift; sourceTree = "<group>"; };
+		F74BF43E244FF1020047C9E6 /* HomeImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F74BF440244FFC1D0047C9E6 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		F77ABE92244F6EA000CCFCEC /* ImSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77ABE95244F6EA000CCFCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F77ABE97244F6EA000CCFCEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F77ABE99244F6EA000CCFCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F77ABE99244F6EA000CCFCEC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F77ABE9C244F6EA000CCFCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F77ABE9E244F6EA400CCFCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77ABEA1244F6EA400CCFCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F77ABEA3244F6EA400CCFCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D4A093245044DB00FF6BC3 /* AuthorizationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +65,140 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8E231FB20868FAB1833242 /* Pods_MapleLabs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A317ED2F696958B3D40D20A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8CFC15F7A5C174518D4B959 /* Pods_MapleLabs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0F15DFB1B86FD6AF658A6D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ED794D19DC4AAA6D56A20B8 /* Pods-MapleLabs.debug.xcconfig */,
+				11C449101F6522F4AE041CF2 /* Pods-MapleLabs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7023BDB24503DE2000C858F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F7023BE7245041B0000C858F /* Constants.swift */,
+				F7023BDC24503DF0000C858F /* ConfigurationUtil.swift */,
+				F7023BDF24503E57000C858F /* DictionaryExtension.swift */,
+				F74A59F02450755B00DE29E8 /* UIImageViewExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F7023BE124503E86000C858F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				F7023BE524503EF9000C858F /* Configuration.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		F7023BEB24504218000C858F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F71D6D242450390200583A5D /* APIClients.swift */,
+				F7D4A093245044DB00FF6BC3 /* AuthorizationAdapter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F7023BEC24504269000C858F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7023BED2450427D000C858F /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F71D6D23245038EF00583A5D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F7023BEB24504218000C858F /* Networking */,
+				F7023BE924504214000C858F /* PhotoRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F74A59F42450DCCF00DE29E8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F77ABE9B244F6EA000CCFCEC /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F74A59F52450DCF100DE29E8 /* ImageDetailsFooter */ = {
+			isa = PBXGroup;
+			children = (
+				F74A59F62450DD1500DE29E8 /* ImageDetailsFooter.swift */,
+				F74A59FA2450DD7600DE29E8 /* ImageDetailsFooter.xib */,
+			);
+			path = ImageDetailsFooter;
+			sourceTree = "<group>";
+		};
+		F74BF439244FEE3A0047C9E6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				F74A59F52450DCF100DE29E8 /* ImageDetailsFooter */,
+				F74BF43A244FEE790047C9E6 /* UnsplashImageView.swift */,
+				F74BF43E244FF1020047C9E6 /* HomeImageCollectionViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		F74BF43C244FEF120047C9E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F77ABE99244F6EA000CCFCEC /* HomeViewController.swift */,
+				F74A59F22450CF0700DE29E8 /* ImageDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F74BF43D244FEF200047C9E6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F74BF442244FFC260047C9E6 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F74BF440244FFC1D0047C9E6 /* PinterestLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
 		F77ABE89244F6EA000CCFCEC = {
 			isa = PBXGroup;
 			children = (
 				F77ABE94244F6EA000CCFCEC /* MapleLabs */,
 				F77ABE93244F6EA000CCFCEC /* Products */,
+				E0F15DFB1B86FD6AF658A6D2 /* Pods */,
+				A317ED2F696958B3D40D20A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F77ABE93244F6EA000CCFCEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F77ABE92244F6EA000CCFCEC /* MapleLabs.app */,
+				F77ABE92244F6EA000CCFCEC /* ImSplash.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +206,17 @@
 		F77ABE94244F6EA000CCFCEC /* MapleLabs */ = {
 			isa = PBXGroup;
 			children = (
+				F7023BEC24504269000C858F /* Models */,
+				F7023BE124503E86000C858F /* Configurations */,
+				F7023BDB24503DE2000C858F /* Helpers */,
+				F71D6D23245038EF00583A5D /* Repositories */,
+				F74BF442244FFC260047C9E6 /* CollectionViewLayout */,
+				F74BF43D244FEF200047C9E6 /* ViewModels */,
+				F74BF43C244FEF120047C9E6 /* Views */,
+				F74BF439244FEE3A0047C9E6 /* CustomViews */,
+				F74A59F42450DCCF00DE29E8 /* Storyboards */,
 				F77ABE95244F6EA000CCFCEC /* AppDelegate.swift */,
 				F77ABE97244F6EA000CCFCEC /* SceneDelegate.swift */,
-				F77ABE99244F6EA000CCFCEC /* ViewController.swift */,
-				F77ABE9B244F6EA000CCFCEC /* Main.storyboard */,
 				F77ABE9E244F6EA400CCFCEC /* Assets.xcassets */,
 				F77ABEA0244F6EA400CCFCEC /* LaunchScreen.storyboard */,
 				F77ABEA3244F6EA400CCFCEC /* Info.plist */,
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F77ABEA6244F6EA400CCFCEC /* Build configuration list for PBXNativeTarget "MapleLabs" */;
 			buildPhases = (
+				E1D460E1E8789C2BFAF3F0FC /* [CP] Check Pods Manifest.lock */,
 				F77ABE8E244F6EA000CCFCEC /* Sources */,
 				F77ABE8F244F6EA000CCFCEC /* Frameworks */,
 				F77ABE90244F6EA000CCFCEC /* Resources */,
+				33119FC573D60B7E41409964 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +243,7 @@
 			);
 			name = MapleLabs;
 			productName = MapleLabs;
-			productReference = F77ABE92244F6EA000CCFCEC /* MapleLabs.app */;
+			productReference = F77ABE92244F6EA000CCFCEC /* ImSplash.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F77ABEA2244F6EA400CCFCEC /* LaunchScreen.storyboard in Resources */,
+				F7023BE624503EF9000C858F /* Configuration.plist in Resources */,
+				F74A59FB2450DD7600DE29E8 /* ImageDetailsFooter.xib in Resources */,
 				F77ABE9F244F6EA400CCFCEC /* Assets.xcassets in Resources */,
 				F77ABE9D244F6EA000CCFCEC /* Main.storyboard in Resources */,
 			);
@@ -133,14 +294,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33119FC573D60B7E41409964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapleLabs/Pods-MapleLabs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapleLabs/Pods-MapleLabs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapleLabs/Pods-MapleLabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D460E1E8789C2BFAF3F0FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapleLabs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F77ABE8E244F6EA000CCFCEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F77ABE9A244F6EA000CCFCEC /* ViewController.swift in Sources */,
+				F7023BEE2450427D000C858F /* Photo.swift in Sources */,
+				F7023BE024503E57000C858F /* DictionaryExtension.swift in Sources */,
+				F7023BEA24504214000C858F /* PhotoRepository.swift in Sources */,
+				F7023BDD24503DF0000C858F /* ConfigurationUtil.swift in Sources */,
+				F74BF441244FFC1D0047C9E6 /* PinterestLayout.swift in Sources */,
+				F77ABE9A244F6EA000CCFCEC /* HomeViewController.swift in Sources */,
 				F77ABE96244F6EA000CCFCEC /* AppDelegate.swift in Sources */,
+				F7023BE8245041B0000C858F /* Constants.swift in Sources */,
+				F74A59F12450755B00DE29E8 /* UIImageViewExtension.swift in Sources */,
+				F74A59F32450CF0700DE29E8 /* ImageDetailsViewController.swift in Sources */,
+				F74BF43B244FEE790047C9E6 /* UnsplashImageView.swift in Sources */,
+				F74A59F72450DD1500DE29E8 /* ImageDetailsFooter.swift in Sources */,
 				F77ABE98244F6EA000CCFCEC /* SceneDelegate.swift in Sources */,
+				F7D4A094245044DB00FF6BC3 /* AuthorizationAdapter.swift in Sources */,
+				F71D6D252450390200583A5D /* APIClients.swift in Sources */,
+				F74BF43F244FF1020047C9E6 /* HomeImageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +498,19 @@
 		};
 		F77ABEA7244F6EA400CCFCEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED794D19DC4AAA6D56A20B8 /* Pods-MapleLabs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9KN8EQ6H2;
 				INFOPLIST_FILE = MapleLabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.MapleLabs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.ImSplash;
+				PRODUCT_NAME = ImSplash;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +518,19 @@
 		};
 		F77ABEA8244F6EA400CCFCEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C449101F6522F4AE041CF2 /* Pods-MapleLabs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9KN8EQ6H2;
 				INFOPLIST_FILE = MapleLabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.MapleLabs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.ImSplash;
+				PRODUCT_NAME = ImSplash;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
