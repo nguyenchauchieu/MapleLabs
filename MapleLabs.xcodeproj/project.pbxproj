@@ -170,13 +170,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		F74BF43D244FEF200047C9E6 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		F74BF442244FFC260047C9E6 /* CollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +204,6 @@
 				F7023BDB24503DE2000C858F /* Helpers */,
 				F71D6D23245038EF00583A5D /* Repositories */,
 				F74BF442244FFC260047C9E6 /* CollectionViewLayout */,
-				F74BF43D244FEF200047C9E6 /* ViewModels */,
 				F74BF43C244FEF120047C9E6 /* Views */,
 				F74BF439244FEE3A0047C9E6 /* CustomViews */,
 				F74A59F42450DCCF00DE29E8 /* Storyboards */,

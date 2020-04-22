@@ -9,6 +9,20 @@
 import Foundation
 import UIKit
 
+enum PhotoKey: String, CodingKey {
+    case id
+    case width
+    case height
+    case urls
+}
+
+enum UrlLinks: String, CodingKey {
+    case thumb
+    case small
+    case regular
+    case raw
+}
+
 struct Photo {
     var id: String?
     var thumnailLink: String?
@@ -16,20 +30,6 @@ struct Photo {
     var rawPhotoLink: String?
     var width: CGFloat?
     var height: CGFloat?
-    
-    enum PhotoKey: String, CodingKey {
-        case id
-        case width
-        case height
-        case urls
-    }
-    
-    enum UrlLinks: String, CodingKey {
-        case thumb
-        case small
-        case regular
-        case raw
-    }
 }
 
 extension Photo: Decodable {

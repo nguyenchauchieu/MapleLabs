@@ -59,10 +59,6 @@ class APIClient: NSObject {
     
     fileprivate func execute(_ path: String, isOAuth: Bool, method: HTTPMethod, parameters: [String : Any]?, headers: [String : String]?, success: ((Any?) -> Void)?, failure: @escaping FailureRequest) {
         
-//            var allowedCharacters = CharacterSet.urlQueryAllowed
-//            allowedCharacters.insert(charactersIn: "%")
-//            absolutePath = absolutePath.addingPercentEncoding(withAllowedCharacters: allowedCharacters)!
-        
             guard let url = URL(string: baseURL + path) else {
                 let info = [NSLocalizedDescriptionKey : "Cannot get url"]
                 let error = NSError(domain: "Error", code: 0, userInfo: info)
